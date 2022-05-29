@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Forside</title>
+    <meta
+      name="Dansk Pilsner"
+      content="øl, dansk, pilsner, fadøl, dansk, Danskpilsner, billig, god, frisk,"
+    />
+  </head>
+
+  <body>
+    <!--nav/burger-->
+    <nav id="burger">
+      <div class="navbar">
+        <div class="container nav-container">
+          <a id="burger-logo" href="index.html">Dansk Pilsner</a>
+          <input class="checkbox" type="checkbox" name="burger-menu" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <li><a class="btn-one" href="#kampange">konkurrencer</a></li>
+            <li><a class="btn-one" href="historie.html">Historie</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/burger End-->
+
+    <!--nav computer-->
+    <header id="computerheader">
+      <nav>
+        <a class="btn-one" href="#kampange">konkurrencer</a>
+        <a class="btn-one" href="#">Dansk Pilsner</a>
+        <a class="btn-one" href="historie.html">Historie</a>
+      </nav>
+    </header>
+
+    <!--nav computer end-->
+    <!--Hero slider-->
+    <section>
+      <div class="carousel-wrapper" style="height: 400px">
+        <span id="target-item-1"></span>
+        <span id="target-item-2"></span>
+        <span id="target-item-3"></span>
+        <div class="carousel-item item-1">
+          <h2>Dansk øl til en dansk sommer</h2>
+          <a class="arrow arrow-prev" href="#target-item-3"></a>
+          <a class="arrow arrow-next" href="#target-item-2"></a>
+        </div>
+        <div class="carousel-item item-2">
+          <h2>Fås nu på fad</h2>
+          <a class="arrow arrow-prev" href="#target-item-1"></a>
+          <a class="arrow arrow-next" href="#target-item-3"></a>
+        </div>
+        <div class="carousel-item item-3">
+          <h2>Øl brykket med omhu</h2>
+          <a class="arrow arrow-prev" href="#target-item-2"></a>
+          <a class="arrow arrow-next" href="#target-item-1"></a>
+        </div>
+      </div>
+    </section>
+    <!--Hero slider end-->
+
+    <!--Forside nyheder-->
+    <section class="forside-nyheder">
+      <div class="forside-nyheder-tekst">
+        <h1>Prøv Dansk Pilsner på fad</h1>
+        <hr />
+        <p>
+          Vi har hørt jer, og vi har derfor lanceret Dansk pilsner på
+          fadølsanlæg, flere steder i danmark. Så prøv den samme øl i nye
+          rammer. Tilgængelig på et værtshus nær dig.
+        </p>
+      </div>
+      <div id="forside-nyheder-img1">
+        <img
+          src="img/two-handsome-bartenders-poring-beer-pub.jpg"
+          alt="Dansk pilsner S"
+        />
+      </div>
+    </section>
+    <!--forside nyheder end-->
+
+    <!--forside kort -->
+    <section class="forside-kort">
+      <div class="forside-kort-tekst">
+        <h1>Vind Dansk pilsner merchandise</h1>
+        <p>
+          Kig i kaspel, af din Danske pilsner og se om du vinder. <br />
+          Sommeren 2022. trækker vi vindere om store friske priser, til dig og
+          dine venner. <br /><br />
+          Alt hvad du skal gøre er at gå ind på hjemmesiden her og indtaste din
+          kode for at se om du er den heldige vinder.
+        </p>
+        <input
+          type="tel"
+          id="kampagne"
+          name="kampagne"
+          required
+          placeholder="XDY-230-2kf-212"
+          minlength="4"
+          maxlength="6"
+          size="6"
+        />
+        <input class="kampange-input" type="submit" />
+      </div>
+
+      <div class="forside-kort-img1">
+        <img id="kampange" src="/img/kapsel.png" alt="kapsel dansk pilsner" />
+      </div>
+    </section>
+    <!--forside kort end-->
+
+    <!--forside galleri-->
+    <section class="galleri">
+      <h1>En øl for alle</h1>
+      <div class="horizontal-snap">
+        <a href="#"><img src="img/dp1.JPG" alt="dp1" /></a>
+        <a href="#"><img src="img/dp2.jpg" alt="dp2" /></a>
+        <a href="#"><img src="img/dp3.jpg" alt="dp3" /></a>
+        <a href="#"><img src="img/dp4.jpg" alt="dp4" /></a>
+        <a href="#"><img src="img/dp5.jpg" alt="dp5" /></a>
+        <a href="#"><img src="img/dp6.jpg" alt="dp6" /></a>
+        <a href="#"><img src="img/dp7.jpg" alt="dp7" /></a>
+        <a href="#"><img src="img/dp8.jpg" alt="dp8" /></a>
+        <a href="#"><img src="img/dp9.jpg" alt="dp9" /></a>
+        <a href="#"><img src="img/dp10.jpg" alt="dp10" /></a>
+        <a href="#"><img src="img/dp11.jpg" alt="dp11" /></a>
+      </div>
+    </section>
+    <!--forside galleri end-->
+
+    <!--Footer -->
+    <footer>
+      <div>
+        <h2>Dansk Pilsner</h2>
+        <br />
+        <p>Om os</p>
+        <br />
+        <p>Drik med omtankte</p>
+      </div>
+
+      <div>
+        <h2>Kundeservice</h2>
+        <br />
+        <p>Kontakt os</p>
+        <br />
+        <p>Cookie - og privathedspolitik</p>
+      </div>
+    </footer>
+    <!--Footer End -->
+  </body>
+</html>
